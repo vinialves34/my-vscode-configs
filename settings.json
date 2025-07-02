@@ -1,0 +1,97 @@
+{
+  "workbench.colorCustomizations": {
+    "parameterHints.hintBackground": "#3741513f",
+    "parameterHints.hintForeground": "#9CA3AF"
+  },
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "workbench.tree.indent": 10,
+  // "workbench.activityBar.location": "hidden",
+  "workbench.layoutControl.enabled": false,
+  "editor.suggestSelection": "first",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.rulers": [120],
+  "editor.lineHeight": 1.5,
+  // "editor.scrollbar.horizontal": "hidden",
+  // "editor.scrollbar.vertical": "hidden",
+  "editor.minimap.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.compactFolders": false,
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "parameterHints.hintingType": "variableOnly",
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.language": "en,pt,pt_BR",
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+  "cSpell.userWords": [
+    "nestjs",
+    "rocketseat",
+    "Siecola",
+    "tsyringe",
+    "Vini"
+  ],
+  "window.commandCenter": false,
+  "apc.header": {
+    "height": 30
+  },
+  "apc.font.family": "SUSE Medium",
+  "excalidraw.theme": "auto",
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  // "apc.stylesheet": {
+  //   ".title-label > h2": "display: none",
+  //   ".editor-actions": "display: none",
+  // },
+}
